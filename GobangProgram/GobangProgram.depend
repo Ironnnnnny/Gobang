@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1639017196 source:f:\homework\五子棋程序设计\gobangprogram\src\checkwin.c
+	"checkWin.h"
+	"chess.h"
+	<stdio.h>
+	<stdlib.h>
+
+1638410929 f:\homework\五子棋程序设计\gobangprogram\include\checkwin.h
+
+1639014928 f:\homework\五子棋程序设计\gobangprogram\include\chess.h
+
+1638198876 source:f:\homework\五子棋程序设计\gobangprogram\src\chess.c
+	"chess.h"
+
+1638194950 source:f:\homework\五子棋程序设计\gobangprogram\src\computermode.c
+	"ComputerMode.h"
+
+1638194950 f:\homework\五子棋程序设计\gobangprogram\include\computermode.h
+
+1638441358 source:f:\homework\五子棋程序设计\gobangprogram\src\display.c
+	<stdio.h>
+	<stdlib.h>
+	"chess.h"
+
+1638798515 source:f:\homework\五子棋程序设计\gobangprogram\src\move.c
+	<stdio.h>
+	<stdlib.h>
+	"checkWin.h"
+	"chess.h"
+
+1639017304 source:f:\homework\五子棋程序设计\gobangprogram\main.c
+	<stdio.h>
+	<stdlib.h>
+	"chess.h"
+	"checkWin.h"
+	"move.h"
+	"display.h"
+	"ComputerMode.h"
+	"choiceMode.h"
+
+1638194950 f:\homework\五子棋程序设计\gobangprogram\include\move.h
+
+1638194950 f:\homework\五子棋程序设计\gobangprogram\include\display.h
+
+1638796613 source:f:\homework\五子棋程序设计\gobangprogram\src\judege.c
+	"Judege.h"
+	"chess.h"
+
+1638796492 f:\homework\五子棋程序设计\gobangprogram\include\judege.h
+
+1639014936 f:\homework\五子棋程序设计\gobangprogram\include\choicemode.h
+
+1639014971 source:f:\homework\五子棋程序设计\gobangprogram\src\choicemode.c
+	"choiceMode.h"
+	<stdio.h>
+
