@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "chess.h"
+
+
 void draw(int **state, int row, int column){
-	//system("cls"); //«Â∆¡
+	//system("cls"); //√á√•√Ü√Å
 	int i,j;
 	printf("  ");
 	for (i = 0; i < column; i++)

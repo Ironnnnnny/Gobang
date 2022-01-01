@@ -18,7 +18,6 @@ int main()
     {
         order = 1;
         int i,j;
-        //int **board;
         //1黑方,2白方;规则是黑方先走,但黑方会有禁手
         board = malloc(sizeof(int*)*ROW);
         for(i = 0; i < ROW; i++)
@@ -35,27 +34,7 @@ int main()
             {
                 playermove(board, ROW, COLUMN, order);
                 draw(board, ROW, COLUMN);
-                if(z==1)
-                {
-                    if(order==1)
-                        printf("\n黑方胜利！");
-                    else
-                        printf("\n白方胜利！");
-                    z=0;
-                    break;
-                }
-                else if(z==-1)
-                {
-                    printf("和棋!");
-                    z=0;
-                    break;
-                }
-                else if( z == -2 )
-                {
-                    printf("黑方禁手犯规！白方胜利！");
-                }
-                else
-                    ;
+
                 order = order%2+1;
 
                 ComputerMode(board,ROW,COLUMN);
@@ -69,18 +48,22 @@ int main()
                     z=0;
                     break;
                 }
-                else if(z==-1)
+                else if(z==5)
                 {
-                    printf("和棋!");
-                    z=0;
+                    printf("黑方长连禁手犯规！白方胜利！");
                     break;
                 }
-                else if(z==-2)
+                else if(z==3)
                 {
-                    printf("黑方禁手犯规！白方胜利！");
+                    printf ("黑方三三禁手犯规！白方胜利！");
+                    break;
                 }
-                else
-                    ;
+                else if(z==4)
+                {
+                    printf("黑方四四禁手犯规！白方胜利！");
+                    break;
+                }
+
                 order = order%2+1;
             }
         }
@@ -91,7 +74,7 @@ int main()
             {
                 playermove(board, ROW, COLUMN, order);
                 draw(board, ROW, COLUMN);
-                //printf("%d",z);
+                printf("Z = %d \n",z);
                 if(z==1)
                 {
                     if(order == 1)
@@ -101,23 +84,26 @@ int main()
                     z=0;
                     break;
                 }
-                else if(z==-1)
+                else if(z==2)
                 {
                     printf("和棋!");
                     z=0;
                     break;
                 }
-                else if(z==-2)
+                else if(z==5)
                 {
                     printf("黑方长连禁手犯规！白方胜利！");
+                    break;
                 }
-                else if(z==-3)
+                else if(z==3)
                 {
                     printf ("黑方三三禁手犯规！白方胜利！");
+                    break;
                 }
-                else if(z==-4)
+                else if(z==4)
                 {
                     printf("黑方四四禁手犯规！白方胜利！");
+                    break;
                 }
 
                 order = order%2+1;

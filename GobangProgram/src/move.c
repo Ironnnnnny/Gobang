@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "checkWin.h"
 #include "chess.h"
+#include "checkWin.h"
 
 extern int **board;
 void playermove(int **state, int row, int column, int order){
@@ -32,9 +32,6 @@ void playermove(int **state, int row, int column, int order){
 			printf("非法输入，请重新输入:");
 			continue;
 		}
-
 	}
-
-
-    checkWin(board,x,y,order);
+	judge(state,order,x,y);
 }

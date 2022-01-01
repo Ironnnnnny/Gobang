@@ -1,34 +1,35 @@
 # depslib dependency file v1.0
-1639017196 source:f:\homework\五子棋程序设计\gobangprogram\src\checkwin.c
+1641020499 source:f:\homework\五子棋程序设计\gobangprogram\src\checkwin.c
 	"checkWin.h"
-	"chess.h"
+
+1641020177 f:\homework\五子棋程序设计\gobangprogram\include\checkwin.h
 	<stdio.h>
 	<stdlib.h>
-
-1638410929 f:\homework\五子棋程序设计\gobangprogram\include\checkwin.h
+	"chess.h"
 
 1639014928 f:\homework\五子棋程序设计\gobangprogram\include\chess.h
 
 1638198876 source:f:\homework\五子棋程序设计\gobangprogram\src\chess.c
 	"chess.h"
 
-1638194950 source:f:\homework\五子棋程序设计\gobangprogram\src\computermode.c
+1641020004 source:f:\homework\五子棋程序设计\gobangprogram\src\computermode.c
 	"ComputerMode.h"
 
-1638194950 f:\homework\五子棋程序设计\gobangprogram\include\computermode.h
+1641020203 f:\homework\五子棋程序设计\gobangprogram\include\computermode.h
+	"checkWin.h"
 
 1638441358 source:f:\homework\五子棋程序设计\gobangprogram\src\display.c
 	<stdio.h>
 	<stdlib.h>
 	"chess.h"
 
-1638798515 source:f:\homework\五子棋程序设计\gobangprogram\src\move.c
+1641017367 source:f:\homework\五子棋程序设计\gobangprogram\src\move.c
 	<stdio.h>
 	<stdlib.h>
-	"checkWin.h"
 	"chess.h"
+	"checkWin.h"
 
-1639017304 source:f:\homework\五子棋程序设计\gobangprogram\main.c
+1641020271 source:f:\homework\五子棋程序设计\gobangprogram\main.c
 	<stdio.h>
 	<stdlib.h>
 	"chess.h"
@@ -53,4 +54,12 @@
 1639014971 source:f:\homework\五子棋程序设计\gobangprogram\src\choicemode.c
 	"choiceMode.h"
 	<stdio.h>
+
+1641020492 source:f:\homework\五子棋程序设计\gobangprogram\src\forbid.c
+	"forbid.h"
+
+1641020491 f:\homework\五子棋程序设计\gobangprogram\include\forbid.h
+	<stdio.h>
+	"chess.h"
+	<stdbool.h>
 

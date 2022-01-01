@@ -38,6 +38,7 @@
 		<Unit filename="include/chess.h" />
 		<Unit filename="include/choiceMode.h" />
 		<Unit filename="include/display.h" />
+		<Unit filename="include/forbid.h" />
 		<Unit filename="include/move.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
@@ -55,6 +56,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/forbid.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="src/move.c">
