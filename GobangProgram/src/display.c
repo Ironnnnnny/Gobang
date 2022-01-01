@@ -4,7 +4,7 @@
 
 
 void draw(int **state, int row, int column){
-	//system("cls"); //ÇåÆÁ
+	system("cls"); //ÇåÆÁ
 	int i,j;
 	printf("  ");
 	for (i = 0; i < column; i++)
